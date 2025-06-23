@@ -1,4 +1,4 @@
-/* Reset + General Styling */
+
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +12,6 @@ body {
   line-height: 1.6;
 }
 
-/* Navigation Bar */
 nav {
   background-color: #111;
   color: white;
@@ -46,7 +45,7 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-/* Hero Section */
+
 .hero {
   background: #003366;
   color: white;
@@ -73,7 +72,6 @@ nav ul li a:hover {
   padding: 20px;
 }
 
-/* Reusable Button Style */
 .btn {
   display: inline-block;
   padding: 10px 20px;
@@ -88,7 +86,6 @@ nav ul li a:hover {
   background: #0056b3;
 }
 
-/* Brighter Section Styling */
 section {
   margin: 40px 20px;
   padding: 40px 30px;
@@ -105,7 +102,7 @@ section h2 {
   margin-bottom: 25px;
 }
 
-/* Section Background Variations */
+
 #about {
   background-color: #fefefe;
 }
@@ -122,7 +119,6 @@ section h2 {
   background-color: #f9fcff;
 }
 
-/* Resume PDF iframe styling */
 #resume iframe {
   width: 100%;
   max-width: 800px;
@@ -133,7 +129,7 @@ section h2 {
   margin: 0 auto 20px;
 }
 
-/* Skills Section - Stylish Pills */
+
 #skills ul {
   display: flex;
   flex-wrap: wrap;
@@ -160,7 +156,7 @@ section h2 {
   background-color: #d0e9ff;
 }
 
-/* Footer */
+
 footer {
   background-color: #111;
   color: white;
@@ -168,7 +164,7 @@ footer {
   padding: 20px;
 }
 
-/* Responsive Design */
+/
 @media screen and (max-width: 768px) {
   nav ul {
     flex-direction: column;
